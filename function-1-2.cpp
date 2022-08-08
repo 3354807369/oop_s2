@@ -11,7 +11,7 @@
 	 {
 		 std::cout<<students[i]<<" ";
 		 for(int j=0;j<4;j++){
-			 if(j==4){
+			 if(j==3){
 				 std::cout<<report_card[i][j];
 			 }else{
 		 std::cout<<report_card[i][j]<<" ";
