@@ -1,9 +1,12 @@
 #include<iostream>
-#include<math.h>
-using namespace std;
-extern int binary_to_int(int binary_digits[], int number_of_digits);
 
+using namespace std;
 int main(){
-	int array[7]={1,0,0,1,0,1,1};
-	cout<<binary_to_int(array,7)<<endl;
+	int a;
+	int *num1;
+	a=5;
+	num1=&a;
+	cout<<num1<<endl;
+	cout<<*num1<<endl;
+	return 0;
 }

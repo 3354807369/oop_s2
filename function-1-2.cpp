@@ -1,20 +1,18 @@
 #include<iostream>
-
-int is_identity(int array[10][10]){
-	int j=0;
-	for(int i=0;i<10;i++){
-		for(j=0;j<10;j++){
-			if(i==j){
-		if(array[i][i]!=1){
-			return 0;
-		}
-			
-		}else{
-			if (array[i][j]!=0)
-				return 0;
-		}
-		}
+#include<string>
+ void print_class(std::string courses[4], std::string students[], int report_card[][4], int nstudents){
+	std::cout<<"Report card"<<" "; 
+	
+	for(int i=0;i<4;i++){
+		std::cout<<courses[i]<<"         ";
 	}
-	return 1;
-		
-}
+	 std::cout<<std::endl;
+	 for(int i=0;i<nstudents;i++)
+	 {
+		 std::cout<<students[i]<<" ";
+		 for(int j=0;j<4;j++){
+		 std::cout<<"          "<<report_card[i][j]<<"   ";
+		 }
+		 std::cout<<std::endl;
+	 }
+ }

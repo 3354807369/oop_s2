@@ -1,8 +1,8 @@
 #include<iostream>
-using namespace std;
-extern int sum_diagonal(int array[4][4]);
+
+extern  void printer(int array[10][10]);
 
 int main(){
-	int array[4][4]={1,2,3,4,1,2,3,4,1,2,3,4,2,3,4,5};
-	cout<<sum_diagonal(array)<<endl;
+	int array[10][10]={1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0};
+    printer(array);
 }

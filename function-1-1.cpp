@@ -1,9 +1,14 @@
 #include<iostream>
-
-int sum_diagonal(int array[4][4]){
-	int sum=0;
-	for(int i=0;i<4;i++){
-		sum=sum+array[i][i];
-	}
-	return sum;
-}
+using namespace std;
+ void printer(int array[10][10]){
+	 for(int i=0;i<10;i++){
+		 for(int j=0;j<10;j++){
+			 if(j==9){
+			 cout<<array[i][j];
+			 }else{
+				 cout<<array[i][j]<<" ";
+			 }
+			 }
+			 cout<<endl;
+	 }
+ }

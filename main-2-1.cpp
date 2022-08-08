@@ -1,8 +1,11 @@
 #include<iostream>
-
-extern void print_binary_str(std::string decimal_number);
-
+#include<string>
+using namespace std;
 int main(){
-	std::string decimal_number=("75");
-	print_binary_str(decimal_number);
+	int a;
+	int *num1;
+	a=5;
+	num1=&a;
+	cout<<num1<<endl;
+	return 0;
 }
