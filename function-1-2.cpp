@@ -4,11 +4,17 @@
 	std::cout<<"Report Card"<<" "; 
 	
 	for(int i=0;i<4;i++){
-		std::cout<<courses[i]<<" ";
+		if(i==3){
+		    std::cout<<courses[i];
+		}else{
+			std::cout<<courses[i]<<" ";
+		}
+		
 	}
 	 std::cout<<std::endl;
 	 for(int i=0;i<nstudents;i++)
 	 {
+		 
 		 std::cout<<students[i]<<" ";
 		 for(int j=0;j<4;j++){
 			 if(j==3){
