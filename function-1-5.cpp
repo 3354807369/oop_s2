@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
 int size_of_array_arr() {
-    return 12;
+    int *arr = new int[3];
+	return sizeof(arr)+sizeof(int);
 }
