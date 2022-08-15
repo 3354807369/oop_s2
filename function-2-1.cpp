@@ -11,9 +11,9 @@ float subtract_op(float left, float right){
 }
 float arithmetic_ops(float left, float right, std::string op){
 	float a=0;
-	if(op=="add"){
+	if(op=="+"){
 		 a=add_op(left,right);
-	}else if(op=="subtract"){
+	}else if(op=="-"){
 		 a=subtract_op(left,right);
 	}
 	return a;
