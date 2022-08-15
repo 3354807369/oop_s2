@@ -1,8 +1,7 @@
 #include<iostream>
-
-extern void print_matrix(int array[10][10]);
+using namespace std;
+extern int size_of_variable_star_t();
 
 int main(){
-	int array[10][10]={1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0};
-    print_matrix(array);
-}
+	 cout<<size_of_variable_star_t()<<endl;
+} 
