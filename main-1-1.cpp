@@ -1,7 +1,9 @@
 #include<iostream>
-using namespace std;
-extern int size_of_variable_star_t();
+
+extern void string_2d_copy(std::string first[][2], std::string second[][2], int n);
 
 int main(){
-	 cout<<size_of_variable_star_t()<<endl;
-} 
+    std::string b[3][2]={"ab","cd","ef"};
+	std::string a[3][2];
+	string_2d_copy(b,a,3);
+}
