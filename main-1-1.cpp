@@ -1,15 +1,11 @@
 #include<iostream>
-
-extern void string_2d_copy(std::string first[][2], std::string second[][2], int n);
-
+extern void printNumbers(int *numbers,int length) ;
+extern int *readNumbers() ;
+using namespace std;
 int main(){
-    std::string b[3][2]={"11","22","33","44","55","66"};
-	std::string a[3][2];
-	string_2d_copy(b,a,3);
-	for(int i=0;i<3;i++){
-	for(int j=0;j<2;j++){
-		std::cout<<a[i][j];
-	}
-	}
-	std::cout<<std::endl;
+	int *p=readNumbers();
+	
+		
+	printNumbers(p,10);
+	
 }
