@@ -7,5 +7,5 @@ int main(){
 	
 		
 	printNumbers(p,10);
-	
+	return 0;
 }
