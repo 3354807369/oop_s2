@@ -1,18 +1,13 @@
 #include<iostream>
-using namespace std;
-int *readNumbers(){
-	static int a[10];
-	for(int i=0;i<10;i++){
-		cin>>a[i];
-	}
-	return a;
-}
 
-void printNumbers(int *numbers,int length){
-	
-	for(int i=0;i<10;i++){
-		cout<<i<<" "<<*(numbers+i)<<endl;
+ int *left_shift(int *vals, int len, int amount){
+    for(int i=0;i<len;i++){
+		if(*(vals+i)==amount){
+			for(int j=1;j<len-i;j++){
+			*(vals+j-1)=*(vals+i+j);
+		    *(vals+i+j)=0;
+			}
+		}
 	}
-	
-	
-}
+	return vals;
+ }
