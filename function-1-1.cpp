@@ -8,3 +8,4 @@ int* left_shift(int* vals, int len, int amount) {
   array[i] = vals[j];
   array[j] = 0;
  }
+}
