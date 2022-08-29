@@ -4,7 +4,6 @@ using namespace std;
 Person::Person(int mySalary,string myName){
    a=mySalary;
    b=myName;
-   cout<<b<<a<<endl;
 }
 void Person::setName(string c){
     b=c;
