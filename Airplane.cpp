@@ -4,8 +4,8 @@
 using namespace std;
 
 Airplane::Airplane(string callsign, Person thePilot, Person theCoPilot){
-    thePilot = Person(0,"a");
-    theCoPilot = Person(0,"aa");
+    //thePilot = Person(0,"a");
+    //theCoPilot = Person(0,"aa");
     thecallsign=callsign;
     pilot=thePilot;
     copilot=theCoPilot;
