@@ -23,7 +23,7 @@ Person Airplane::getCoPilot(){
     return copilot;
 }
 void Airplane::printDetails(){
-    cout<<thecallsign<<" ";
-    cout<<pilot.getName()<<"  ";
+    cout<<thecallsign<<endl;
+    cout<<pilot.getName()<<endl;
     cout<<copilot.getName()<<endl;
 }
