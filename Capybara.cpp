@@ -2,7 +2,8 @@
 #include<iostream>
 using namespace std;
 Capybara::Capybara(){
-    
+    name="?";
+    age=0; 
 }
 void Capybara::setName(string capyName){
      name=capyName;

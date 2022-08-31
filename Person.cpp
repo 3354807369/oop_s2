@@ -5,6 +5,10 @@ Person::Person(int mySalary,string myName){
    a=mySalary;
    b=myName;
 }
+Person::Person(){
+    a=0;
+    b=" ";
+}
 void Person::setName(string c){
     b=c;
 }
