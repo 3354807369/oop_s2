@@ -23,8 +23,6 @@ Musician* Orchestra::get_members() {
 bool Orchestra::add_musician(Musician new_musician) {
  if (b < a) {
   people[b] = new_musician;
-  cout<<people[b].get_experience()<<" ";
-  cout<<people[b].get_instrument()<<endl;
   b++;
   return true;
  }
