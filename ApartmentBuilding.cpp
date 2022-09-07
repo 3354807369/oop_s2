@@ -19,15 +19,15 @@ Unit * ApartmentBuilding::get_contents(){
 }
 bool ApartmentBuilding::add_unit(Unit unit){
     a=0;
-    for(int i=0;i<cap;i++){
+    
     if(a<cap){
-        array[i]=unit;
+        array[a]=unit;
         a++;
        
         return true;
     }
     
-    }
+    
     return false;
     
      

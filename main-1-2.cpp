@@ -9,6 +9,7 @@ int main(){
     Unit t4(5000,3,80);
     Unit t5(3000,1,50);
     Unit t6(2000,1,30);
+    ApartmentBuilding(5);
      b->get_capacity();
     b->add_unit(t1);
     b->add_unit(t2);
