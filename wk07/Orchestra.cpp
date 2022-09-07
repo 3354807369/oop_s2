@@ -21,6 +21,7 @@ Musician* Orchestra::get_members() {
  return people;
 }
 bool Orchestra::add_musician(Musician new_musician) {
+  b=0;
  if (b < a) {
   people[b] = new_musician;
   b++;

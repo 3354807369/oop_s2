@@ -1,19 +1,22 @@
-#include"Orchestra.h"
+#include"ApartmentBuilding.h"
 #include<iostream>
 using namespace std;
-int main() {
- Musician t1("jnn", 123);
- Musician t2("jnne", 122);
- Musician t3("jnne", 123);
- Musician t4("jnnd", 122);
- Musician t5("jnns", 124);
- Orchestra* i = new Orchestra(5);
- Orchestra(5);
- i->add_musician(t1);
- i->add_musician(t2);
- i->add_musician(t3);
- i->add_musician(t4);
- i->add_musician(t5);
- i->has_instrument("jnne");
- 
+int main(){
+     ApartmentBuilding *b=new ApartmentBuilding(5);
+    Unit t1(1000,2,30);
+    Unit t2(2000,3,50);
+    Unit t3(4000,2,50);
+    Unit t4(5000,3,80);
+    Unit t5(3000,1,50);
+    Unit t6(2000,1,30);
+     b->get_capacity();
+    b->add_unit(t1);
+    b->add_unit(t2);
+    b->add_unit(t3);
+    b->add_unit(t4);
+    b->add_unit(t5);
+    b->add_unit(t6);
+    b->get_contents();
+    b->get_current_number_of_units();
+    
 }

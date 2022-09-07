@@ -23,8 +23,8 @@ public:
 
  ~Orchestra();
 private:
- int a = 0;
- int b = 0;
+ int a;
+ int b;
  Musician people[10];
 };
 #endif

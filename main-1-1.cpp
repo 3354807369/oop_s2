@@ -1,9 +1,9 @@
-#include"Musician.h"
 #include<iostream>
+#include"Unit.h"
 using namespace std;
 int main(){
-    Musician *a=new Musician("aa",30);
-    cout<<a->get_instrument()<<" ";
-    cout<<a->get_experience()<<endl;
-    
+    Unit *e=new Unit(1000,2,30);
+    cout<<e->get_value()<<" ";
+    cout<<e->get_num_bedrooms()<<" ";
+    cout<<e->get_area()<<" ";
 }
