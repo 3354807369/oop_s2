@@ -18,6 +18,7 @@ Unit * ApartmentBuilding::get_contents(){
     
 }
 bool ApartmentBuilding::add_unit(Unit unit){
+    a=0;
     for(int i=0;i<cap;i++){
     if(a<cap){
         array[i]=unit;
@@ -28,7 +29,7 @@ bool ApartmentBuilding::add_unit(Unit unit){
     
     }
     return false;
-     
+    
      
 } 
 ApartmentBuilding::~ApartmentBuilding(){
