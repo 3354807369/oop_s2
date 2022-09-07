@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 ApartmentBuilding::ApartmentBuilding(){
-
+   cap=10;
 }
 ApartmentBuilding::ApartmentBuilding(int capacity){
     cap=capacity;

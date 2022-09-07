@@ -22,7 +22,7 @@ bool add_unit(Unit unit);
 private:
 int cap;
 int number;
-Unit array[1000];
+Unit array[10];
 int a;
 };
 #endif
