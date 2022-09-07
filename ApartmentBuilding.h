@@ -21,8 +21,8 @@ bool add_unit(Unit unit);
 ~ApartmentBuilding();
 private:
 int cap;
-int number;
+
 Unit array[10];
-int a;
+int a=0;
 };
 #endif

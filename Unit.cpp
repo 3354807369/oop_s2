@@ -7,17 +7,17 @@ Unit::Unit(){
    size=0;
 }
 Unit::Unit(int unit_val, int num_beds, double unit_size){
-    if(unit_val<0){
+    if(unit_val<=0){
         val=0;
     }else{
         val=unit_val;
     }
-    if(num_beds<0){
+    if(num_beds<=0){
         num=0;
     }else{
         num=num_beds;
     }
-    if(unit_size<0){
+    if(unit_size<=0){
         size=0;
     }else{
         size=unit_size;
