@@ -2,7 +2,7 @@
 #include"AirCraft.h"
 #include<iostream>
 using namespace std;
-Helicopter::Helicopter(int w,string n){
+Helicopter::Helicopter(int w,string n):AirCraft(w){
      w=weight;
      heliID++;
 }

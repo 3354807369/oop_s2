@@ -17,5 +17,6 @@ public:
 	float fuel=100;                  
 	int numberOfFlights = 0;;
 	void refuel();
+    
 };
 
