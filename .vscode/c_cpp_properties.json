@@ -3,14 +3,16 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:\\Users\\33548\\Desktop\\SFML-2.5.1\\include",
+                "C:\\Users\\33548\\Desktop\\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\\mingw64\\include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\Users\\33548\\Desktop\\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\\mingw64\\bin\\gcc.exe",
+            "compilerPath": "C:\\Users\\33548\\Desktop\\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\\mingw64\bin\\g++.exe",
             "cStandard": "c11",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64"

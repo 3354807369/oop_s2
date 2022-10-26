@@ -8,8 +8,13 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-lsfml-graphics",
+                "-lsfnl-system",
+                "-lsfml-window",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I",
+                "C:\\Users\\33548\\Desktop\\SFML-2.5.1\\include"
             ],
             "options": {
                 "cwd": "${fileDirname}"
